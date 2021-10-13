@@ -24,7 +24,7 @@ public class Main {
     }
 
     private static double readNumber(String value){
-        System.out.print("Input " + value);
+        System.out.print("Enter " + value);
         Scanner scn = new Scanner(System.in);
         return scn.nextDouble();
     }
