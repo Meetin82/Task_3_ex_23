@@ -43,9 +43,9 @@ public class Main {
         System.out.println(picture.getColor(x, y));
 
         if (x <= 10 && x >= -10 && y <= 10 && y >= -10) {
-            System.out.println("Correctly.");
+            System.out.println("Correctly .The numbers range from -10 to 10.");
         } else {
-            System.out.println("Error.");
+            System.out.println("Error. The numbers are not in the range from -10 to 10.");
         }
     }
 
