@@ -1,6 +1,5 @@
 package ru.vsu.cs.semenov_d_s;
 
-
 import static ru.vsu.cs.semenov_d_s.Main.printColor;
 
 public class Test {
