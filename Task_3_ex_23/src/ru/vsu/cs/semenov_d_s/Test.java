@@ -19,8 +19,7 @@ public class Test {
             return false;
         } else if (picture.getColor(8,-3) != SimpleColor.GRAY){
             return false;
-        }
-        else {
+        } else {
             return true;
         }
     }
