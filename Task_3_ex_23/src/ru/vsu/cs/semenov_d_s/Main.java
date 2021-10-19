@@ -15,7 +15,7 @@ public class Main {
             System.out.println("The program works correctly.");
         } else {
             System.out.println("Error. The program does not works correctly.");
-            System.exit(1);
+            return;
         }
 
         printTest();
