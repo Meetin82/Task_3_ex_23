@@ -20,17 +20,18 @@ public class Picture {
         if (L.isPointAboveLine(x, y) && P.isPointAboveParabola(x, y) && !R.isPointInsideRectangle(x, y)) {
             return SimpleColor.YELLOW;
 
-        } else if (R.isPointInsideRectangle(x, y) && L.isPointAboveLine(x, y))
+        } else if (R.isPointInsideRectangle(x, y) && L.isPointAboveLine(x, y)) {
             return SimpleColor.ORANGE;
 
-        else if (L.isPointAboveLine(x, y) && !P.isPointAboveParabola(x, y)) {
+        } else if (L.isPointAboveLine(x, y) && !P.isPointAboveParabola(x, y)) {
             return SimpleColor.GRAY;
 
-        } else if (!L.isPointAboveLine(x, y) && y > 4)
+        } else if (!L.isPointAboveLine(x, y) && y > 4) {
             return SimpleColor.BLUE;
 
-        else if (!P.isPointAboveParabola(x, y) && !L.isPointAboveLine(x, y)) {
+        } else if (!P.isPointAboveParabola(x, y) && !L.isPointAboveLine(x, y)) {
             return SimpleColor.BLUE;
+            
         } else {
             return SimpleColor.GRAY;
         }
