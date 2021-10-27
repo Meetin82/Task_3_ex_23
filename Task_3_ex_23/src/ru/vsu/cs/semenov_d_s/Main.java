@@ -12,9 +12,9 @@ import static ru.vsu.cs.semenov_d_s.Test.printTest;
 
 public class Main {
 
-    private static final VerticalParabola P = new VerticalParabola(0, -6,0.25);
-    private static final Rectangle R = new Rectangle(new Point2D.Double(-6,-2), new Point2D.Double(-1,4));
-    private static final Line L = new Line(-1, 2,-2);
+    private static final VerticalParabola P = new VerticalParabola(0, -6, 0.25);
+    private static final Rectangle R = new Rectangle(new Point2D.Double(-6, -2), new Point2D.Double(-1, 4));
+    private static final Line L = new Line(-1, 2, -2);
 
     public static Picture picture = new Picture(P, R, L);
 
