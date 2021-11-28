@@ -9,8 +9,8 @@ public class Picture {
     private final Rectangle rectangle;
     private final Line line;
 
-    public Picture(VerticalParabola parabola, Rectangle rectangle, Line line) {
-        this.verticalParabola = parabola;
+    public Picture(VerticalParabola verticalParabola, Rectangle rectangle, Line line) {
+        this.verticalParabola = verticalParabola;
         this.rectangle = rectangle;
         this.line = line;
     }
